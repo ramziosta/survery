@@ -1,0 +1,58 @@
+main{
+  color: white;
+}
+body::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+   background-image: 
+    url(https://www.wirerealm.com/wp-content/uploads/2017/06/top-10-best-bass-guitars.jpg);
+    background-repeat: repeat;
+  background-position: center;
+  opacity:0.3;
+}
+#header{
+  text-align:center;
+  font-family:Andale Mono, monospace;
+  font-size:1.5em;
+}
+
+form{
+  background: linear-gradient(160deg, rgba(22,150,214,0.6666666666666667) 5%, rgba(66,168,168,1) 45%, rgba(182,12,182,0.7749474789915967) 100%);
+  color:;
+  font-size:1.5em;
+  box-shadow:3px 3px 5px white;
+  font-family:OCR A Std, monospace;
+  text-align:;
+  width:30%;
+  height:100%;
+  border-radius:20px 0px;
+  margin:20px auto 40px;
+  padding:20px;
+    
+}
+
+textarea, #name, #email, #number, #dropdown,#specify {
+  width:100%;
+}
+
+#name{
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+#header{
+  background: linear-gradient(160deg, rgba(3,246,184,0.6666666666666667) 5%, rgba(118,66,168,1) 45%, rgba(30,12,182,0.5788690476190477) 100%);
+  width:30%;
+  margin:20px auto;
+  color:white;
+  padding:10px;
+  border-radius:20px 0;
+  font-family:OCR A Std, monospace;
+}
